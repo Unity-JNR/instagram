@@ -1,0 +1,84 @@
+:root{
+    --colour: radial-gradient(pink, yellow)
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.feed {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+   
+}
+
+.user-info img {
+    
+    border-radius: 50%;
+    max-width: 40px;
+    margin-right: 10px;
+    background: radial-gradient(45deg, hotpink, yellow);
+    background-clip: content-box;
+    /* border: 2px solid transparent; */
+    border-image-source: linear-gradient(45deg, hotpink, yellow);
+    border-image-slice: 1;
+    border-image-width: 2px;
+    /* border-image-repeat: round; */
+
+  
+    
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-info {
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.heart{
+    display: flex;
+    justify-content: flex-end !important;
+}
+#middle{
+    display: inline-block;
+    justify-content: space-around;
+   
+
+}
+
